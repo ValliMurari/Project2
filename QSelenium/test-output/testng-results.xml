@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70" started-at="2023-01-17T19:46:29 EST" finished-at="2023-01-17T19:46:29 EST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="70" started-at="2023-01-17T19:46:29 EST" finished-at="2023-01-17T19:46:29 EST">
+      <class name="Practice.Ts">
+        <test-method status="PASS" signature="createContact()[pri:0, instance:Practice.Ts@491cc5c9]" name="createContact" duration-ms="11" started-at="2023-01-17T19:46:29 EST" finished-at="2023-01-17T19:46:29 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="modifyContact()[pri:0, instance:Practice.Ts@491cc5c9]" name="modifyContact" duration-ms="1" started-at="2023-01-17T19:46:29 EST" depends-on-methods="Practice.Ts.createContact" finished-at="2023-01-17T19:46:29 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyContact -->
+        <test-method status="PASS" signature="deleteContact()[pri:0, instance:Practice.Ts@491cc5c9]" name="deleteContact" duration-ms="1" started-at="2023-01-17T19:46:29 EST" depends-on-methods="Practice.Ts.modifyContact" finished-at="2023-01-17T19:46:29 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
+      </class> <!-- Practice.Ts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
